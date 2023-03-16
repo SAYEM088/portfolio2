@@ -396,6 +396,11 @@ font-size: 4.5rem;
     #menu-icon{
         display: block;
     }    
+
+    .header-upper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
     .navbar{
         position: absolute;
         top: 100%;
