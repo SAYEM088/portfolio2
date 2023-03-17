@@ -340,11 +340,11 @@ font-size: 4.5rem;
     font-size: 1.2rem;
     color: var(--main-color);
 }
+/* animation */
 .home-contain span{
     position: relative;
     overflow: hidden;
 }
-
 .anitor:before{
     position: absolute;
     content: "";
@@ -391,6 +391,10 @@ font-size: 4.5rem;
     .footer{
         padding: 2rem 3%;
     }
+    .img-home{
+        width: 70%;
+        margin-bottom: 2rem;
+    }
 }
 @media (max-width:768px) {
     #menu-icon{
@@ -421,7 +425,11 @@ font-size: 4.5rem;
         margin: 3rem 0;
     }
     .home{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
         flex-direction: column;
+        
     }
     .home-contain h3{
         font-size: 2.6rem;
@@ -429,19 +437,22 @@ font-size: 4.5rem;
     .home-contain h1{
         font-size: 3rem;
     }
-    .about{
-        flex-direction: column-reverse;
-        padding-left: 4rem;
+    .img-home{
+        width: 35%;
+        margin: 4rem;
     }
-    .about img{
-        width: 40vw;
-        margin-left: 25rem;
+    .about{
+       flex-direction: column-reverse;
+       margin-left: 2rem ;
     }
     .service{
         margin-bottom: 4rem;
     }
     .portfolio-container{
         grid-template-columns: repeat(2,1fr);
+    }
+    .about-img.img-about{
+        width: 70vw;
     }
 }
 @media (max-width: 617px) {
@@ -463,6 +474,10 @@ font-size: 4.5rem;
         font-size: .3rem;
         margin-bottom: 1.5rem;
     }
+    .img-home{
+        width: 70%;
+        margin: 2rem;
+    }
 }
 @media (max-width: 617px){
     html{
@@ -471,5 +486,9 @@ font-size: 4.5rem;
     .contact form .input-box input{
         width: 100%;
         flex-wrap: wrap;
+    }
+    .img-home{
+        width: 70vw;
+        margin: 2rem;
     }
 }
