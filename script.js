@@ -23,7 +23,7 @@ window.onscroll =()=>{
     })
     // sticky navbar
     let header =document.querySelector('header');
-    header.classList.toggle('sticky',window.screenY>100);
+    header.classList.toggle('sticky',window.screenY>150);
     menuIcon.classList.toggle('bx-x');
     navbar.classList.remove('active');
 

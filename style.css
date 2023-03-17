@@ -76,7 +76,7 @@ section{
     align-items: center;
     
 }
-.home-contain h3{
+.home-contain .anu{
     font-size: 2.2rem;
     font-weight: 700;
 }
@@ -341,7 +341,7 @@ font-size: 4.5rem;
     color: var(--main-color);
 }
 /* animation */
-.home-contain span{
+.home-contain .anu span{
     position: relative;
     overflow: hidden;
 }
@@ -350,7 +350,7 @@ font-size: 4.5rem;
     content: "";
     top: 0;
     left: 0;
-    height: 100%;
+    height:100%;
     width: 100%;
     background-color:var(--bg-color);
     border-left: 2px solid var(--main-color);
@@ -443,7 +443,8 @@ font-size: 4.5rem;
     }
     .about{
        flex-direction: column-reverse;
-       margin-left: 2rem ;
+       padding-left: 4rem ;
+       gap: 5rem;
     }
     .service{
         margin-bottom: 4rem;
@@ -451,8 +452,9 @@ font-size: 4.5rem;
     .portfolio-container{
         grid-template-columns: repeat(2,1fr);
     }
-    .about-img.img-about{
-        width: 70vw;
+    .about-img .img-about{
+        width: 75%;
+        height: 80%;
     }
 }
 @media (max-width: 617px) {
